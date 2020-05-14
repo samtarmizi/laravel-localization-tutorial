@@ -14,7 +14,13 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <div class="container text-center">
+                        <h1>@lang("Hi there!")</h1>
+                        <div class="col-md-offset-2">
+                            <p>{{ __("How are you doing?")}}</p>
+                            <p>{{ __("This is basic example of how you use Laravel Localizations")}}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
