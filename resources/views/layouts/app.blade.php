@@ -38,6 +38,19 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                Language <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="lang/en"><img src="{{asset('img/us.png')}}" width="30px" height="20x"> English</a>
+                                <a class="dropdown-item" href="lang/fr"><img src="{{asset('img/fr.png')}}" width="30px" height="20x"> French</a>
+                                <a class="dropdown-item" href="lang/ge"><img src="{{asset('img/ge.png')}}" width="30px" height="20x"> German</a>
+                                <a class="dropdown-item" href="lang/es"><img src="{{asset('img/es.png')}}" width="30px" height="20x"> Spanish</a>
+                                <a class="dropdown-item" href="lang/in"><img src="{{asset('img/in.png')}}" width="30px" height="20x"> Hindi</a>
+                                <a class="dropdown-item" href="lang/pk"><img src="{{asset('img/pk.png')}}" width="30px" height="20x"> Urdu</a>
+                            </div>
+                        </li>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
